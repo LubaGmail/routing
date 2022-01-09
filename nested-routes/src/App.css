@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+ul {
+  list-style: none
+}
+
+.nav {
+  background-color: rgb(215, 250, 227);
+  padding: 1rem;
+}
+
+.users {
+  background-color: rgb(233, 202, 162);
+  padding: 5rem;
+}
+
+.nestedUser {
+  background-color: antiquewhite;
+  padding: 10rem;
+}
