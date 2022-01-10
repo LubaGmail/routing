@@ -32,9 +32,14 @@ export const Profile = () => {
         </div>
     )
 }
+
+{/* 
+    <Route path="orders" element={<Orders orders={orders} />}>
+        <Route path=":order" element={<OrderDetails />} />
+    </Route> 
+*/}
 export const Orders = ({orders}) => {
-   
- 
+    
     return (
         <div>
            <h2>Orders</h2>
@@ -53,9 +58,17 @@ export const Orders = ({orders}) => {
     )
 }
 
+{/* 
+    <Route path="orders" element={<Orders orders={orders} />}>
+        <Route path=":order" element={<OrderDetails />} />
+    ...
+    <Outlet />
+    . ..
+    <Link to={order}>
+*/}
 export const OrderDetails = () => {
     const { order } = useParams();
-    console.log('order', order)
+    // console.log('order', order)
   
     return (
         <div>
